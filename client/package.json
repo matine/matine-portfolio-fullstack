@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/matine/matine.co.uk"
   },
+  "engines": {
+    "node": "10.1.0"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "babel-polyfill": "^6.26.0",
