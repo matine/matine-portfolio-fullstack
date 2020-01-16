@@ -52,7 +52,7 @@ class Weather extends PureComponent {
             weatherResponse,
         } = this.state
 
-        if (!weatherResponse) {
+        if (!weatherResponse || !weatherResponse.main) {
             return null
         }
 
